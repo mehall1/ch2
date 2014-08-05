@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @microport.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @microport.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_microport_path(@microport) %> |
+<%= link_to 'Back', microports_path %>
